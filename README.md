@@ -64,14 +64,18 @@ Done
 > A "relative import":
 >
 > ```python
-> from .routers import items, users
+> from .processing.computer import analyze
 > ```
+> 
+>> used within the FastAPI app, under "app/"
 >
 > An "absolute import":
 >
 > ```python
-> from app.routers import items, users
+> from app.processing.computer import analyze
 > ```
 >
-> 👉 <https://docs.python.org/3/tutorial/modules.html>
+>> used by the main module, "cli.py"
+>
+> 👉 <https://docs.python.org/3/tutorial/modules.html#intra-package-references>
 
