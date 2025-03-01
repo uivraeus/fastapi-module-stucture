@@ -1,4 +1,4 @@
-# FastAPI with multiple sbu-modules
+# FastAPI with multiple sub-modules
 
 Shows how to structure an application with multiple sub-modules (directories).
 
